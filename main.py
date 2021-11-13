@@ -40,8 +40,8 @@ while running :
     cloudX += cloudX_change
     if space == 'on':
         playerY+= playerY_change
-        if(playerY<=screenY/2-64):
-            playerY = screenY/2-64
+        if(playerY<=screenY/2-500):
+            playerY = screenY/2-500
             playerY_change *= -1
         
         if(playerY>=screenY/2):
